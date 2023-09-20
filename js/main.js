@@ -1,9 +1,6 @@
 $(document).ready(function() {
     })
-
-    $('button').click(function(){
-        alert("VAaaaaaaaaaaaaaa")
-    })
+    
     $('#telefone').mask("(00) 00000-0000", {
         placeholder:"(11) 99999-9999"
     })
