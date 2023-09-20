@@ -1,0 +1,64 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(133, 194, 194);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 36px;
+    margin-bottom: 36px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    width: 300px;
+}
+
+.formulario {
+    max-width: 100%;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+form input {
+    display: block;
+    padding: 10px 25px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+form button {
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0;
+}
